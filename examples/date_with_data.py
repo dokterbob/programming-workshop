@@ -1,3 +1,16 @@
+"""
+Code example from datewithdata on the 14th of Octobre.
+
+First, it asks a number of people a bunch of questions (in this example,
+only the name) and stores the data in memory (the `answers` variable).
+
+After that, it asks the questions again, one by one, and displays a narrowed
+down group of corresponding people.
+
+The underlying mechanics are made to demonstrate how 'anonymous' information
+can often be quickly led to particular individuals.
+"""
+
 def take_survey():
     """ Function: ask a single user some questions. """
 
